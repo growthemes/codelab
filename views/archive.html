@@ -1,0 +1,10 @@
+{% extends "/views/base.html" %}
+
+{% block main %}
+  <ul>
+    {% for post in g.docs('posts') %}
+      <li><a href="{{post.url.path}}">{{post}}</a>
+    {% endfor %}
+  </ul>
+{% endblock %}
+

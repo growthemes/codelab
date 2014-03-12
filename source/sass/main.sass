@@ -1,0 +1,187 @@
+@import url(//fonts.googleapis.com/css?family=Roboto:300,500,500italic,600,700,700italic,800|Source+Code+Pro|Dosis:300,500);
+@import 'font-awesome/font-awesome.scss';
+
+body {
+  font-family: 'Roboto', helvetica, arial, sans-serif;
+  font-weight: 300;
+  background: #e9eaed;
+  margin: 30px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #1E72FF;
+}
+
+main,
+footer,
+header {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+header h1 {
+  margin-top: 0;
+  padding: 0;
+}
+
+header h1 i {
+  margin: 0 5px 0 10px;
+}
+
+main {
+  display: flex;
+  @media screen and (max-width: 700px) {
+    display: block;
+  }
+}
+
+nav,
+section {
+  flex: 1;
+  -webkit-box-flex: 1;
+}
+
+section {
+  background: #fff;
+  border-radius: 5px;
+  padding: 30px 40px;
+  border: 1px solid;
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: 300;
+}
+
+h1 a,
+h2 a
+h3 a,
+h4 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 a:hover,
+h3 a:hover,
+h4 a:hover {
+  text-decoration: underline;
+}
+
+h2,
+h3,
+h4 {
+  padding: 15px 0;
+}
+
+nav {
+  margin: 0 40px 20px 0;
+  max-width: 200px;
+  @media screen and (max-width: 700px) {
+    max-width: 100%;
+    margin: 0 0 20px 0;
+  }
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li:last-child {
+  border-bottom: 1px solid rgba(1, 1, 1, 0.1);
+}
+
+nav ul li {
+  border-top: 1px solid rgba(1, 1, 1, 0.1);
+}
+
+nav ul li a {
+  color: inherit;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  -webkit-transition: all 300ms;
+}
+
+nav ul li a i {
+  -webkit-transition: all 300ms;
+  display: inline-block;
+  float: left;
+  font-size: 21px;
+  height: 20px;
+  margin: 1px 8px 0 0;
+  opacity: .25;
+  width: 20px;
+}
+
+nav ul li.active a i {
+  color: #245dc1;
+  opacity: 1;
+}
+
+nav ul li a:hover i {
+  opacity: .75;
+}
+
+nav ul li a:hover {
+  background: rgba(1, 1, 1, 0.04);
+}
+
+footer {
+  margin: 20px auto;
+  text-align: right;
+}
+
+footer:hover i {
+  opacity: .75;
+}
+
+footer i {
+  font-size: 20px;
+  margin: 0 5px;
+  vertical-align: middle;
+  opacity: .25;
+  -webkit-transition: all 300ms;
+}
+
+.banner .tagline {
+  background: rgba(0, 0, 0, .75);
+  color: #fff;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 300;
+  margin-top: 50px;
+  padding: 10px 20px;
+  position: absolute;
+}
+
+main img {
+  border-radius: 5px;
+  max-width: 100%;
+  margin: 0 0 20px 0;
+}
+
+.posts {
+  display: flex;
+  @media screen and (max-width: 700px) {
+    display: block;
+  }
+}
+
+.posts .post {
+  width: 33%;
+  height: 100px;
+  flex: 1;
+}
+
+.posts .post h4 {
+  font-weight: 300;
+  margin: 0 0 15px 0;
+  padding: 0;
+}

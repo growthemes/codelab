@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{doc.locale}}">
+<meta charset="utf-8">
+<title>{{_(doc.title)}} – {{_(podspec.title)}}</title>
+<link rel="stylesheet" href="{{g.static('/static/css/main.min.css')}}">
+<link rel="shortcut icon" href="{{g.static('/static/images/icon.png')}}">
+<meta name="description" value="{{_(podspec.description)}}">
+<body>
+  <header>
+    <h1><a href="{{g.url('/content/pages/index.md').path}}">
+      <i class="fa fa-rocket"></i>
+      {{_(podspec.title)}}
+    </a></h1>
+  </header>
+  <main>
+    <nav>
+      <ul>
+        {% for page in g.docs('pages', locale=doc.locale) %}
+          <li {% if doc == page %}class="active"{% endif %}>
+          <a href="{{page.url.path}}">
+            <i class="fa fa-{{page.icon or 'arrow-circle-o-right'}}"></i>
+            {{_(page.titles('nav'))}}
+          </a>
+        {% endfor %}
+      </ul>
+    </nav>
+    <section>
+      {% block main %}
+        {{doc.html|safe}}
+      {% endblock %}
+    </section>
+  </main>
+  <footer>
+    <i class="fa fa-globe"></i>
+    <select onchange="window.location.href = this.value">
+      {% for locale in doc.locales %}
+      <option
+        {% if doc.locale == locale %} selected{% endif %}
+        value="{{g.doc(doc.pod_path, locale=locale).url.path}}">
+          {{locale.get_display_name(locale)}}
+      {% endfor %}
+    </select>
+  </footer>

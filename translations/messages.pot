@@ -1,0 +1,32 @@
+msgid "About Us"
+msgstr ""
+
+msgid "Archive"
+msgstr ""
+
+msgid "Grow SDK Codelab"
+msgstr ""
+
+msgid "Hello, Grow!"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Incubuitque petiti divus retinacula aetherias et quoque"
+msgstr ""
+
+msgid "Latest updates"
+msgstr ""
+
+msgid "The Team"
+msgstr ""
+
+msgid ""
+"The codelab pod for the Grow SDK. Used in conjunction with the codelab at "
+"http://growsdk.org.\n"
+msgstr ""
+
+msgid "Welcome foo"
+msgstr ""
+

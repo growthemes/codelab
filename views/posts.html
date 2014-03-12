@@ -1,0 +1,6 @@
+{% extends "/views/base.html" %}
+
+{% block main %}
+  <h1><a href="{{doc.url.path}}">{{doc.title}}</a></h1>
+  {{doc.html|safe}}
+{% endblock %}

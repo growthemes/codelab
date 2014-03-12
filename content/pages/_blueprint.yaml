@@ -1,0 +1,6 @@
+path: /{slug}/
+view: /views/pages.html
+title: Pages
+
+localization:
+  path: /{locale}/{slug}/
