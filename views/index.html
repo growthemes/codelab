@@ -11,12 +11,12 @@
 
   <h3>{{_('Latest updates')}}</h3>
   <div class="posts">
-    {% for post in g.docs('posts')[0:3] %}
+    {% for post in g.docs('posts', locale=doc.locale)[0:3] %}
     <div class="post">
       <h4><a href="{{post.url.path}}">{{post.title}}</a></h4>
     </div>
     {% endfor %}
   </div>
-  <p><a href="{{g.url('/content/pages/archive.md').path}}">{{_('View the archive')}}</a>
+  <p><a href="{{g.url('/content/pages/archive.md', locale=doc.locale).path}}">{{_('View the archive')}}</a>
 
 {% endblock %}

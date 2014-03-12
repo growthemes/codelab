@@ -1,3 +1,6 @@
 title: Posts
 path: /posts/{slug}/
 view: /views/posts.html
+
+localization:
+  path: /{locale}/{slug}/

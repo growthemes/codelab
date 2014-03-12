@@ -3,6 +3,13 @@
 {% block main %}
   {{doc.html|safe}}
 
-  {{doc.people}}
+  <ul class="people">
+    {% for person in doc.people %}
+      <li>
+        <h3>{{_(person.name)}}</h3>
+        <h4>{{_(person.title)}}</h4>
+        <p>{{_(person.bio)}}
+    {% endfor %}
+  </ul>
 
 {% endblock %}
