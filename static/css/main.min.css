@@ -1432,6 +1432,12 @@ main img {
   margin: 0 0 15px 0;
   padding: 0; }
 
+.posts .post h4 a {
+  text-decoration: underline; }
+
+.posts .post h4 a:hover {
+  text-decoration: none; }
+
 .people {
   margin: 0;
   padding: 0; }
@@ -1441,6 +1447,16 @@ main img {
   width: 50%;
   margin: 0; }
 
+.people li > div {
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  padding: 15px;
+  margin: 10px; }
+
+.people li > div p {
+  font-size: 12px; }
+
 .people li h3, .people li h4 {
   font-weight: 300;
   text-transform: uppercase;
@@ -1449,3 +1465,37 @@ main img {
 
 .people li h4 {
   color: #666; }
+
+.meta .attribution {
+  color: #666;
+  font-size: 12px;
+  text-transform: uppercase; }
+
+.meta h1 {
+  margin-bottom: 5px; }
+
+.meta {
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 15px;
+  margin-bottom: 30px; }
+
+.meta-alt {
+  border-top: 1px solid #dedede;
+  padding-top: 15px;
+  margin-top: 50px; }
+
+.meta-alt span {
+  font-size: 12px;
+  color: #666;
+  text-transform: uppercase;
+  margin-right: 10px; }
+
+.meta-alt > div {
+  margin-bottom: 7px; }
+
+.meta-alt a {
+  color: inherit;
+  text-decoration: underline; }
+
+.meta-alt a:hover {
+  text-decoration: none; }

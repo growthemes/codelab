@@ -1,8 +1,7 @@
 grow_version: 0.0.26
 project: growthemes/codelab
 title@: Grow SDK Codelab
-description@: |
-    The codelab pod for the Grow SDK. Used in conjunction with the codelab at http://growsdk.org.
+description@: "The codelab pod for the Grow SDK. Used in conjunction with the codelab at http://growsdk.org."
 
 error_routes:
   default: /views/errors/default.html
@@ -34,3 +33,6 @@ deployments:
   s3:
     destination: s3
     bucket: mybucket.example.com
+  sandbox:
+    destination: gcs
+    bucket: sandbox.growlaunches.com

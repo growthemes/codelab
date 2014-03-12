@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2014-03-11 19:09-0700\n"
+"POT-Creation-Date: 2014-03-12 12:12-0700\n"
 "PO-Revision-Date: 2014-03-11 15:49-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -23,10 +23,31 @@ msgstr ""
 msgid "Archive"
 msgstr ""
 
-msgid "Grow SDK Codelab"
+msgid "CEO"
 msgstr ""
 
-msgid "Hello, Grow!"
+msgid "CTO"
+msgstr ""
+
+msgid "Caelius Ruh"
+msgstr ""
+
+msgid "Creative Director"
+msgstr ""
+
+msgid "Creative Producer"
+msgstr ""
+
+msgid "Diam a ac sed suscipit netus."
+msgstr ""
+
+msgid "Dolor aliquam elit. Facilisi placeat quis sit ipsum vestibulum."
+msgstr ""
+
+msgid "Foo bar baz bam"
+msgstr ""
+
+msgid "Grow SDK Codelab"
 msgstr ""
 
 msgid "Home"
@@ -35,7 +56,26 @@ msgstr ""
 msgid "Incubuitque petiti divus retinacula aetherias et quoque"
 msgstr ""
 
+msgid "Johnny Toma"
+msgstr ""
+
 msgid "Latest updates"
+msgstr ""
+
+msgid "Matthias Freddie"
+msgstr ""
+
+msgid "Nahor Jaylen"
+msgstr ""
+
+#, python-format
+msgid "Posted %(date)s"
+msgstr ""
+
+msgid "Riku Ambroos"
+msgstr ""
+
+msgid "Technical Lead"
 msgstr ""
 
 msgid "The Team"
@@ -43,9 +83,15 @@ msgstr ""
 
 msgid ""
 "The codelab pod for the Grow SDK. Used in conjunction with the codelab at "
-"http://growsdk.org.\n"
+"http://growsdk.org."
+msgstr ""
+
+msgid "View the archive"
 msgstr ""
 
 msgid "Welcome foo"
+msgstr ""
+
+msgid "Wisi nec lacus velit adipiscing lectus."
 msgstr ""
 

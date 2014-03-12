@@ -1,6 +1,28 @@
 {% extends "/views/base.html" %}
 
 {% block main %}
-  <h1><a href="{{doc.url.path}}">{{doc.title}}</a></h1>
+  <div class="meta">
+    <h1><a href="{{doc.url.path}}">{{doc.title}}</a></h1>
+    <div class="attribution">
+      {{_('Posted %(date)s', date=doc.published.date)}}
+    </div>
+  </div>
   {{doc.html|safe}}
+  <div class="meta-alt">
+    {% set next_doc = doc.next() %}
+    {% set prev_doc = doc.prev() %}
+
+    {% if next_doc %}
+    <div>
+      <span>{{_('Next:')}}</span>
+      <a href="{{next_doc.url.path}}">{{next_doc.title}}</a>
+    </div>
+    {% endif %}
+    {% if prev_doc %}
+    <div>
+      <span>{{_('Back:')}}</span>
+      <a href="{{prev_doc.url.path}}">{{prev_doc.title}}</a>
+    </div>
+    {% endif %}
+  </div>
 {% endblock %}
