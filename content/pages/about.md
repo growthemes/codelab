@@ -1,7 +1,7 @@
 ---
 $title@: About Us
 $titles:
-  nav: About
+  nav@: About
 $order: 1
 
 icon: star

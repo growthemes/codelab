@@ -1,7 +1,7 @@
 ---
 $title@: The Team
 $titles:
-  nav: Team
+  nav@: Team
 $order: 3
 $view: /views/team.html
 
