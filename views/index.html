@@ -14,6 +14,9 @@
     {% for post in g.docs('posts', locale=doc.locale)[0:3] %}
     <div class="post">
       <h4><a href="{{post.url.path}}">{{post.title}}</a></h4>
+      <div class="snippet">
+        {{post.html|striptags|truncate(60)}}
+      </div>
     </div>
     {% endfor %}
   </div>

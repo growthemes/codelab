@@ -1,5 +1,5 @@
 ---
-$title@: About Us
+$title@: About us
 $titles:
   nav@: About
 $order: 1
