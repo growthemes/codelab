@@ -25,7 +25,7 @@ preprocessors:
 deployments:
   default:
     destination: local
-    out_dir: grow-codelab-build/
+    out_dir: my-codelab-launch/
   gcs:
     destination: gcs
     bucket: mybucket.example.com

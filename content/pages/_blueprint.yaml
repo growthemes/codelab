@@ -1,6 +1,6 @@
-path: /{slug}/
-view: /views/pages.html
-title: Pages
+path: /{slug}/               # The URL path format.
+view: /views/pages.html      # The template to use.
+title: Pages                 # Collection's title.
 
 localization:
-  path: /{locale}/{slug}/
+  path: /{locale}/{slug}/    # Localized URL path format.

@@ -1,0 +1,104 @@
+msgid "About"
+msgstr ""
+
+msgid "About us"
+msgstr ""
+
+msgid "Archive"
+msgstr ""
+
+msgid "Back:"
+msgstr ""
+
+msgid "CEO"
+msgstr ""
+
+msgid "CTO"
+msgstr ""
+
+msgid "Caelius Ruh"
+msgstr ""
+
+msgid "Creative Director"
+msgstr ""
+
+msgid "Creative Producer"
+msgstr ""
+
+msgid "Diam a ac sed suscipit netus."
+msgstr ""
+
+msgid "Diro colore exemploque quaeque non Quo classis amatis terga texitur."
+msgstr ""
+
+msgid "Dolor aliquam elit. Facilisi placeat quis sit ipsum vestibulum."
+msgstr ""
+
+msgid "Grow SDK Codelab"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Incubuitque petiti divus retinacula aetherias et quoque"
+msgstr ""
+
+msgid "Johnny Toma"
+msgstr ""
+
+msgid "Latest updates"
+msgstr ""
+
+msgid "Matthias Freddie"
+msgstr ""
+
+msgid ""
+"Mei quam habebis latratibus fero Odrysius, et sidera animantis pavens corde "
+"vires pascua."
+msgstr ""
+
+msgid "Nahor Jaylen"
+msgstr ""
+
+msgid "Next:"
+msgstr ""
+
+#, python-format
+msgid "Posted %(date)s"
+msgstr ""
+
+msgid "Riku Ambroos"
+msgstr ""
+
+msgid "Semesarumque rata, esse illi resoluto fronte, in, contigit positi."
+msgstr ""
+
+msgid "Tandemque obscurum capit est ultro caesique manuque sensurum."
+msgstr ""
+
+msgid "Team"
+msgstr ""
+
+msgid "Technical Lead"
+msgstr ""
+
+msgid "The Team"
+msgstr ""
+
+msgid ""
+"The codelab pod for the Grow SDK. Used in conjunction with the codelab at "
+"http://growsdk.org."
+msgstr ""
+
+msgid "Utinam adimuntque obscenas perpetuo, aquaticus pereunt simul inde."
+msgstr ""
+
+msgid "View the archive"
+msgstr ""
+
+msgid "Welcome foo"
+msgstr ""
+
+msgid "Wisi nec lacus velit adipiscing lectus."
+msgstr ""
+
