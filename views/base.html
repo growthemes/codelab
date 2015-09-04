@@ -2,12 +2,13 @@
 <html lang="{{doc.locale}}">
 <meta charset="utf-8">
 <title>{{_(doc.title)}} – {{_(podspec.title)}}</title>
-<link rel="stylesheet" href="{{g.static('/static/css/main.min.css')}}">
-<link rel="shortcut icon" href="{{g.static('/static/images/icon.png')}}">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,500,500italic,600,700,700italic,800|Source+Code+Pro|Dosis:300,500">
+<link rel="stylesheet" href="{{g.static('/dist/main.min.css').url.path}}">
+<link rel="shortcut icon" href="{{g.static('/source/images/icon.png').url.path}}">
 <meta name="description" value="{{_(podspec.description)}}">
 <body>
   <header>
-    <h1><a href="{{g.url('/content/pages/index.md', locale=doc.locale).path}}">
+    <h1><a href="{{g.doc('/content/pages/index.md', locale=doc.locale).url.path}}">
       <i class="fa fa-rocket"></i>
       {{_(podspec.title)}}
     </a></h1>
