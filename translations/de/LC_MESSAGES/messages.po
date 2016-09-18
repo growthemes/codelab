@@ -18,14 +18,14 @@ msgstr ""
 "Generated-By: Babel 1.3\n"
 
 msgid "About"
-msgstr "F"
+msgstr "Über"
 
 #, fuzzy
 msgid "About us"
-msgstr "F"
+msgstr "Über uns"
 
 msgid "Archive"
-msgstr "fooo"
+msgstr "Archiv"
 
 msgid "Back:"
 msgstr "Zurück:"
@@ -55,10 +55,10 @@ msgid "Dolor aliquam elit. Facilisi placeat quis sit ipsum vestibulum."
 msgstr "Dolor Aliquam elit. Facilisi placeat quis sitzen ipsum vestibulum."
 
 msgid "Grow SDK Codelab"
-msgstr "Wachsen SDK Codelab"
+msgstr "Grow SDK Codelab"
 
 msgid "Home"
-msgstr "Zuhause"
+msgstr "Home"
 
 msgid "Incubuitque petiti divus retinacula aetherias et quoque"
 msgstr "Incubuitque Petiti divus Retinacula aetherias et quoque"
@@ -83,11 +83,11 @@ msgid "Nahor Jaylen"
 msgstr "Nahor Jaylen"
 
 msgid "Next:"
-msgstr "Next:"
+msgstr "Nächster Post:"
 
 #, python-format
 msgid "Posted %(date)s"
-msgstr "Geschrieben %(date)s"
+msgstr "Geschrieben am %(date)s"
 
 msgid "Riku Ambroos"
 msgstr "Riku Ambroos"
@@ -102,7 +102,7 @@ msgid "Team"
 msgstr "Team"
 
 msgid "Technical Lead"
-msgstr "Technical Lead"
+msgstr "Technischer Leiter"
 
 msgid "The Team"
 msgstr "Das Team"
@@ -111,17 +111,17 @@ msgid ""
 "The codelab pod for the Grow SDK. Used in conjunction with the codelab at "
 "http://growsdk.org."
 msgstr ""
-"Die Codelab pod für den Grow-SDK. In Verbindung mit der Codelab bei "
+"Das Codelab pod für das Grow-SDK. In Verbindung mit Codelab bei "
 "http://growsdk.org."
 
 msgid "Utinam adimuntque obscenas perpetuo, aquaticus pereunt simul inde."
 msgstr "Utinam adimuntque obscenas perpetuo, aquaticus pereunt gleich unabhängig."
 
 msgid "View the archive"
-msgstr "Zeigen Sie die Archiv"
+msgstr "Archiv anzeigen"
 
-msgid "Welcome foo"
-msgstr "Willkommen foo"
+msgid "Welcome"
+msgstr "Willkommen"
 
 msgid "Wisi nec lacus velit adipiscing lectus."
 msgstr "Wisi ang lacus velit adipiscing lectus."
