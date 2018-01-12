@@ -1,6 +1,6 @@
-grow_version: ">=0.0.55"
-title@: Grow SDK Codelab
-description@: "The codelab pod for the Grow SDK. Used in conjunction with the codelab at http://growsdk.org."
+grow_version: ">=0.4.0"
+title@: Grow Codelab
+description@: "The codelab pod for the Grow SDK. Used in conjunction with the codelab at http://grow.io."
 
 error_routes:
   default: /views/errors/default.html
