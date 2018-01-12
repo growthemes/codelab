@@ -28,7 +28,6 @@ people:
 - name@: Nahor Jaylen
   title@: Creative Producer
   bio@: Semesarumque rata, esse illi resoluto fronte, in, contigit positi.
-
 ---
 [![Image credit: NASA](/static/images/banner2.jpg)](http://www.flickr.com/photos/nasahqphoto/)
 
