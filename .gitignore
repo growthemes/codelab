@@ -3,4 +3,5 @@
 .grow
 build
 dist
-.depcache.json
+node_modules
+package-lock.json

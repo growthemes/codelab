@@ -1,0 +1,16 @@
+{
+  "name": "grow_codelab",
+  "private": true,
+  "browserslist": [
+    "last 1 version",
+    "last 2 iOS versions"
+  ],
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "webpack": "4.33.0",
+    "webpack-stream": "5.2.1"
+  }
+}

@@ -2,8 +2,9 @@ grow_version: ">=0.4.0"
 title@: Grow Codelab
 description@: "The codelab pod for the Grow SDK. Used in conjunction with the codelab at http://grow.io."
 
-error_routes:
-  default: /views/errors/default.html
+# Temporarily removing the error routes.
+# error_routes:
+#   default: /views/errors/default.html
 
 localization:
   default_locale: en
@@ -22,9 +23,9 @@ static_dirs:
   serve_at: /static/images/
 
 preprocessors:
-- kind: sass
-  sass_dir: /source/sass/
-  out_dir: /dist/
+- kind: gulp
+  build_task: grow-build
+  command: "./node_modules/gulp/bin/gulp.js"
 
 deployments:
   default:
